@@ -4,7 +4,7 @@ body {
 }
 
 /*Nav bar style*/
-		
+
 		ul {
 			list-style-type: none;
 			margin: 0;
@@ -22,8 +22,8 @@ body {
 			padding: 16px 75px 16px 75px;
 			text-decoration: none;
 			text-align: center;
-			font-size: 2em; 
-			font-family: "Arial Black", Gadget, sans-serif;	
+			font-size: 2em;
+			font-family: "Arial Black", Gadget, sans-serif;
 			font-weight: bold;
 		}
 
@@ -86,3 +86,12 @@ footer {
 	position: fixed;
 	bottom: 0;
 }
+
+/*Only idea I have: Change media queries so that li don't cover img*/
+/*Experiementing to find the media query pixel width you need*/
+/*@media screen and (max-width: 870px){
+	body {
+		background: red;
+	}
+}*/
+/*Try using the same format but instead of body do something to li or ul to make it fit better when screen is small*/
